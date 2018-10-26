@@ -1,6 +1,6 @@
 {
   "name": "devtease-vuets",
-  "short_name": "devtease-vuets",
+  "short_name": "Vue Report",
   "icons": [
     {
       "src": "/img/icons/android-chrome-192x192.png",
