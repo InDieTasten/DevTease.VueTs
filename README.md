@@ -1,5 +1,7 @@
 # devtease-vuets
 
+Demo is hosted on [https://vue.indietasten.net/](https://vue.indietasten.net/)
+
 ## Project setup
 ```
 npm install
