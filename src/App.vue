@@ -1,39 +1,20 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <!-- <HelloWorld msg="Welcome to your Vue.js + TypeScript App"/> -->
     <ManualReport />
-    <ejs-datepicker id='datepicker' v-model='startDate' :max='endDate' start='Year' depth='Year' :format='format' :allowEdit='allowEdit'></ejs-datepicker>
-    <ejs-datepicker id='datepicker' v-model='endDate' :min='startDate' start='Year' depth='Year' :format='format' :allowEdit='allowEdit'></ejs-datepicker>
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
-import { DateRangePickerPlugin, DatePickerPlugin } from '@syncfusion/ej2-vue-calendars';
-
-import HelloWorld from './components/HelloWorld.vue';
 import ManualReport from './components/ManualReport.vue';
-
-
-
-Vue.use(DateRangePickerPlugin);
-Vue.use(DatePickerPlugin);
 
 @Component({
   components: {
-    HelloWorld,
     ManualReport,
   },
 })
 export default class App extends Vue {
-  private startLevel: string = 'Year';
-  private depth: string = 'Year';
-
-  private startDate: Date = new Date(2017, 0, 1);
-  private endDate: Date = new Date(2017, 11, 31);
-  private format: string = 'yyyy-MM';
-  private allowEdit: boolean = false;
 }
 </script>
 
