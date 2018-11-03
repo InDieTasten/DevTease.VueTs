@@ -1,7 +1,9 @@
 <template>
   <div>
     <h1> Manual Report </h1>
-    <ReportTimeSelection v-model="selectedTimeframe" :allowedTimeframe="allowedTimeframe" />
+    <ReportTimeSelection v-model='selectedTimeframe' :allowedTimeframe='allowedTimeframe' />
+
+    <ReportInputGrid :reportTimeframe='selectedTimeframe' />
   </div>
 </template>
 
@@ -9,10 +11,12 @@
 import { Component, Vue, Prop } from 'vue-property-decorator';
 import { TimeFrame } from '../Models/TimeFrame';
 import ReportTimeSelection from './ReportTimeSelection.vue';
+import ReportInputGrid from './ReportInputGrid.vue';
 
 @Component({
   components: {
     ReportTimeSelection,
+    ReportInputGrid,
   },
 })
 export default class ManualReport extends Vue {

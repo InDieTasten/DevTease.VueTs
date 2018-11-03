@@ -1,5 +1,5 @@
 
-export class TimeFrame {
-    public startDate: Date|null = null;
-    public endDate: Date|null = null;
+export interface TimeFrame {
+    startDate: Date|null;
+    endDate: Date|null;
 }

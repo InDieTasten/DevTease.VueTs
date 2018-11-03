@@ -42,8 +42,3 @@ export default class ReportTimeSelection extends Vue {
   private format: string = 'yyyy-MM';
 }
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped lang="scss">
-
-</style>
