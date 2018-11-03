@@ -19,12 +19,12 @@ export default class App extends Vue {
 </script>
 
 <style lang="scss">
-@import '../node_modules/@syncfusion/ej2-base/styles/material.css';
-@import '../node_modules/@syncfusion/ej2-buttons/styles/material.css';
-@import '../node_modules/@syncfusion/ej2-inputs/styles/material.css';
-@import '../node_modules/@syncfusion/ej2-popups/styles/material.css';
-@import '../node_modules/@syncfusion/ej2-lists/styles/material.css';
-@import "../node_modules/@syncfusion/ej2-vue-calendars/styles/material.css";
+@import '../node_modules/@syncfusion/ej2-base/styles/bootstrap.css';
+@import '../node_modules/@syncfusion/ej2-buttons/styles/bootstrap.css';
+@import '../node_modules/@syncfusion/ej2-inputs/styles/bootstrap.css';
+@import '../node_modules/@syncfusion/ej2-popups/styles/bootstrap.css';
+@import '../node_modules/@syncfusion/ej2-lists/styles/bootstrap.css';
+@import "../node_modules/@syncfusion/ej2-vue-calendars/styles/bootstrap.css";
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
